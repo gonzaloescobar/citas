@@ -23,7 +23,7 @@ class Cita extends Component {
     }
 }
 
-Cita.PropTypes = {
+Cita.propTypes = {
     info: PropTypes.shape({
         fecha : PropTypes.string,
         hora : PropTypes.string,
